@@ -5,7 +5,9 @@ import styles from './page.module.css';
 import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/ui/toggle";
 import { Carousel1 } from "@/components/carrousel/Carousel1";
-import  Hero1  from "../components/Hero/Hero"
+import Hero1 from "../components/Hero/Hero"
+import CardDrip from "../components/Card/CardDrip"
+import Heading from "@/components/Heading/Heading";
 
 function Page() {
   const { userAuth, logout } = useAuthContext();
@@ -30,6 +32,9 @@ function Page() {
       {userAuth && (
         <section className={styles.container}>
           <div className={styles.navbar}>
+            <div className="">
+              <Heading />
+            </div>
             <div>
               <p className={styles.title}>Você está logado como:
                 <div>
@@ -44,13 +49,21 @@ function Page() {
             </div>
           </div>
 
+
           <div>
             <Hero1 />
           </div>
 
-          <div>
-            <Carousel1 />
+
+          <div className="flex mb-20 mt-10 gap-10 justify-center flex-wrap">
+            <CardDrip />
           </div>
+
+
+
+          {/* <div>
+            <Carousel1 />
+          </div>  */}
         </section>
       )}
     </>

@@ -25,7 +25,6 @@
 .navbar {
   display: flex;
   padding: 1em;
-  align-items: center;
   justify-content: space-between;
   padding: 18px;
   gap: 20px;

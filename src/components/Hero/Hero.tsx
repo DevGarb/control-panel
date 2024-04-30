@@ -70,7 +70,7 @@ const Hero1 = () => {
                                                     Desenvolvedor e Analista de Sistemas
                                                 </span>
                                                 <span className="mr-3 border-r border-gray-600  max-h-0"></span>
-                                                <span>Fortaleza - CE</span>
+                                                <span>Fortaleza - CE .</span>
                                             </div>
                                         </div>
                                     </div>

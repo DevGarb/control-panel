@@ -19,7 +19,7 @@ const Hero1 = () => {
                 </div>
                 <div className="flex flex-col top-6 m-5">
                     <div className="bg-gray-800 border border-gray-800 shadow-lg  rounded-2xl p-4">
-                        <div className="flex-none sm:flex">
+                        <div className="flex-none sm:flex items-center">
                             <div className="relative h-72 w-72 sm:mb-0 mb-3">
                                 <span>
                                     <Image
@@ -57,12 +57,13 @@ const Hero1 = () => {
                                     </svg>
                                 </a>
                             </div>
-                            <div className="pt-4 flex-auto sm:ml-5 justify-evenly">
+                            <div className="pt-4 flex-auto sm:ml-5 justify-evenly leading-10 text-lg">
                                 <div className="flex items-center justify-between sm:mt-2">
                                     <div className="flex items-center">
                                         <div className="flex flex-col">
                                             <div className="w-full flex-none text-lg text-gray-200 font-bold leading-none">
                                                 Gabriel Porto
+                                                <div className="border w-44 border-gray-300 my-2"></div>
                                             </div>
                                             <div className="flex-auto text-gray-400 my-1">
                                                 <span className="mr-3 ">

@@ -125,7 +125,7 @@ const Hero1 = () => {
                                         </svg>
                                     </div>
                                     <div className="flex-1 inline-flex   items-center ml-2 space-x-2">
-                                        <a href="https://www.behance.net/ajeeshmon" target="_blank">
+                                        <a href="https://github.com/devgarb" target="_blank">
                                             <svg
                                                 className=" cursor-pointer w-9 h-9 p-1  rounded-2xl hover:bg-blue-500 hover:text-white transition ease-in duration-300"
                                                 xmlns="http://www.w3.org/2000/svg"
@@ -169,7 +169,7 @@ const Hero1 = () => {
                                         </a>
 
                                         <a
-                                            href="https://www.linkedin.com/in/ajeeshmon"
+                                            href="https://www.linkedin.com/in/devgarb-fs/"
                                             target="_blank"
                                         >
                                             <svg
@@ -234,7 +234,7 @@ const Hero1 = () => {
                                         <p className="">7 Projetos</p>
                                     </div>
                                     <a
-                                        href="https://www.behance.net/ajeeshmon"
+                                        href="https://github.com/devgarb"
                                         target="_blank"
                                         className="flex-no-shrink bg-green-400 hover:bg-green-500 px-5 ml-4 py-2 text-xs shadow-sm hover:shadow-lg font-medium tracking-wider border-2 border-green-300 hover:border-green-500 text-black rounded-full transition ease-in duration-300"
                                     >
